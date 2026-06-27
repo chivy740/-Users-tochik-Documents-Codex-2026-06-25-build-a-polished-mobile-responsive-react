@@ -90,9 +90,13 @@ export default function HomePage() {
                 Start Assessment
                 <ArrowRight aria-hidden="true" />
               </button>
-              <a className="secondaryButton" href={links.downloadResource}>
+              <a
+                className="secondaryButton"
+                href={links.downloadResource}
+                download
+              >
                 <Download aria-hidden="true" />
-                G.R.O.W. Framework
+                EDITT Framework
               </a>
             </div>
             <div className="audienceList" aria-label="Designed for">
@@ -296,9 +300,9 @@ export default function HomePage() {
           </div>
 
           <div className="ctaBand" aria-label="Next steps">
-            <a className="primaryButton" href={links.downloadResource}>
+            <a className="primaryButton" href={links.downloadResource} download>
               <Download aria-hidden="true" />
-              Download the G.R.O.W. Career Framework
+              Download the EDITT Framework
             </a>
             <a className="secondaryButton" href={links.speakingInquiry}>
               <Mail aria-hidden="true" />

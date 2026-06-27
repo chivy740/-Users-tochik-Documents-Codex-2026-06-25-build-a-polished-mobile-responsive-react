@@ -20,7 +20,7 @@ export type Category = {
 
 export const links = {
   // Update these placeholder URLs when your real resource, speaking, and homepage links are ready.
-  downloadResource: "#download-grow-career-framework",
+  downloadResource: "/editt-framework.pdf",
   speakingInquiry: "#invite-tochi-to-speak",
   homepage: "#website-homepage",
 };
